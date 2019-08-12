@@ -1,0 +1,56 @@
+.plpage {
+    width: 100%;
+}
+.plpage header {
+    height: 50px;
+    background: rgb(234,234,234);
+    border-bottom: 1px solid rgb(200,200,200);
+    margin-bottom: 20px;
+}
+.postlist {
+
+    width: 1000px;
+    margin:auto;
+    background: lightcyan;
+}
+.searchbar {
+    display: flex;
+}
+.arrow {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 3px;
+    position: relative;
+    left: 30px;
+}
+.plsearch {
+    margin-left: 40px;
+    height: 45px;
+    width: 75%;
+    font-family: sans-serif;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 5px;
+}
+.plbutton {
+    margin-left: 10px;
+    height: 45px;
+    width: 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    background: white;
+    font-weight: 300;
+}
+.listings {
+    display: flex;
+    font-size: 19px;
+    align-content: center;
+    align-items: center;
+}
+.star {
+    font-size: 50px;
+}
+.listings p {
+    margin: 8px;
+}
+

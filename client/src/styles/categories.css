@@ -1,0 +1,120 @@
+.mpcategories {
+    color: rgb(17,0,233);
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mpcategories h2:hover, .mpcategories li:hover {
+    color: rgb(107,0,109);
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    border-bottom: 1px solid rgb(200,200,200);
+    padding: 1px;
+    margin: 0;
+    font-size: 15px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.community {
+height: 230px;
+width: 230px;
+}
+.maincat{
+    font-size: 20px;
+    text-align: center;
+    background: rgb(241,241,241);
+    width: 100%;
+    height: 35px;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(200,200,200);
+    border-top: 1px solid rgb(200,200,200)
+    
+}
+.comlist{
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 170px;
+}
+.housing {
+    margin-left: 20px;
+    width: 230px;
+    height: 280px;
+}
+.housinglist {
+    margin-top: -10px;
+}
+.jobs {
+    margin-left: 20px;
+    width: 150px;
+    height: 730px;
+}
+.jobslist {
+    margin-top: -10px;
+}
+.services {
+    margin-top: -500px;
+    width: 230px;
+}
+.serviceslist {
+    margin-top: -10px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.forsale {
+    margin-left: 20px;
+    margin-top: -460px;
+    width: 230px;
+}
+.forsalelist {
+    margin-top: -10px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.gigs{
+    margin-left: 20px;
+    width: 150px;
+    position: relative;
+    right: -249px;
+    top: -11px;
+}
+.gigslist {
+    margin-top: -10px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.personals {
+    width: 230px;
+    margin-top: -230px;
+}
+.resume {
+    width: 230px;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(241,241,241);
+    height: 35px;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(200,200,200);
+    border-top: 1px solid rgb(200,200,200);
+    position: relative;
+    right: 400px;
+    top: -21px;
+}
+

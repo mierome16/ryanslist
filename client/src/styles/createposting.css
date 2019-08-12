@@ -1,0 +1,56 @@
+.postingpage {
+    width: 100%;
+}
+.postingpage header {
+    height: 50px;
+    background: #ccc;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.postinginfo {
+    width: 1000px;
+    margin: auto;
+}
+.postinginfo input {
+    border: 1px solid green;
+    font-size: 18px;
+    font-weight: 500;
+}
+.postinginfo label {
+    color: green;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+#top {
+    display: flex;
+    flex-direction: column;
+}
+.rowone {
+display: flex;
+justify-content: space-between
+}
+#postingtitle {
+    width: 350px;
+}
+#postingprice {
+    width: 100px;
+    border: 1px solid black
+}
+#postingcity {
+    width: 250px;
+    border: 1px solid black;
+}
+#postingpostal {
+    width: 140px;
+}
+.rowtwo {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+    border: 1px solid green;
+}
