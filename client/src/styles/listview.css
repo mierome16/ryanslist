@@ -7,11 +7,28 @@
     border-bottom: 1px solid rgb(200,200,200);
     margin-bottom: 20px;
 }
-.postlist {
+header div {
+    height: 30px;
+    width: 30px;
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-family: sans-serif;
+    color: rgb(17,0,233);
+    margin-left: 10px;
+    position: relative;
+    top: 7px;
+    left: 20px;
+}
+header p {
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
 
+.postlist {
     width: 1000px;
     margin:auto;
-    background: lightcyan;
 }
 .searchbar {
     display: flex;
@@ -44,13 +61,80 @@
 .listings {
     display: flex;
     font-size: 19px;
-    align-content: center;
-    align-items: center;
+
 }
 .star {
     font-size: 50px;
 }
 .listings p {
     margin: 8px;
+}
+
+.viewbuttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.viewbuttons button {
+    margin: 10px;
+    height: 40px;
+    width: 160px;
+    align-content: center;
+    display: flex;
+    padding-top: 5px;
+    border: 1px solid #888888;
+    border-radius: 10px;
+    box-shadow: 3px 6px #888888;
+    color: black;
+    background: rgb(241,241,241)
+}
+#i {
+    margin-top: -4px;
+    margin-right: 5px;
+}
+
+.viewbuttons .active {
+    background: lightcyan;
+    outline: none;
+}
+.post {
+    width: 100%;
+    display: flex;
+}
+.post p {
+    margin: 5px;
+}
+.itemImage {
+    width: 200px;
+    height: 200px;
+}
+.galleryPost {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid rgb(200,200,200);
+}
+.thumbPost img {
+    width: 60px;
+    height: 60px;
+}
+.thumbPost {
+    display: flex;
+    margin: 10px;
+}
+.date {
+    font-size: 12px;
+}
+.thumbPost p {
+    padding-left: 20px;
+}
+.post p, .thumbPost p, .galleryPost p {
+    font-size: 20px;
+}
+a {
+    color: rgb(17,0,233);
+}
+a:hover {
+    color: rgb(107,0,109);
+    text-decoration: underline;
 }
 

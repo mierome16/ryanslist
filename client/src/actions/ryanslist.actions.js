@@ -1,6 +1,5 @@
 import store from '../store'
 import axios from 'axios'
-import { Action } from 'rxjs/internal/scheduler/Action';
 
 export function getCategories(){
   axios.get('api/categories').then(resp => {
@@ -78,4 +77,14 @@ export function getPostings(category) {
     })
   })
   }
+
+  export function getPost(id) {
+    axios.get('/api/getPost/?id=' + id).then(resp => {
+      store.dispatch({
+        type: 'POST',
+        payload: resp.data
+      })
+    })
+  }
+  
 

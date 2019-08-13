@@ -1,9 +1,9 @@
 .postingpage {
     width: 100%;
 }
-.postingpage header {
+.ppheader {
     height: 50px;
-    background: #ccc;
+    background: rgb(234,234,234);
     width: 100%;
     margin-bottom: 100px;
 }

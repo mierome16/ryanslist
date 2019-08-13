@@ -55,6 +55,13 @@ router.get('/addPost', (req,res,next) => {
   })
 })
 
+router.get('/getPost', (req, res, next) => {
+  conn.query('SELECT * FROM postings WHERE id = ' + req.query.id, function(errors, results, fields) {
+    res.json(results)
+  })
+})
+  
+
 
 
 module.exports = router

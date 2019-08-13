@@ -18,7 +18,9 @@
   "homepage": "https://github.com/pc-summer-2019/boilerplate#readme",
   "dependencies": {
     "concurrently": "^4.1.1",
-    "material-icons-react": "^1.0.4"
+    "material-icons-react": "^1.0.4",
+    "moment": "^2.24.0",
+    "react-moment": "^0.9.2"
   },
   "boilerplate": {
     "name": "boilerplate",

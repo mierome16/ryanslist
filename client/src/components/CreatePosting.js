@@ -29,9 +29,9 @@ addPosting(title, price, city, content, category)
 
     return (
         <div classname="postingpage">
-            <header>
-                <Link to="/"><div>CL</div></Link>
-                <h1>hello</h1>
+            <header className="ppheader">
+            <Link to="/"><div>CL</div></Link>
+            <Link to={`/create-a-posting/`}><p>add post</p></Link>
             </header>
             <form className="postinginfo" onSubmit={handleSubmit}>
                 <div className="rowone">
@@ -54,12 +54,14 @@ addPosting(title, price, city, content, category)
                 </div>
                 <label>Choose Category</label>
                 <select onChange={e => setCategory(e.target.value)}>
+                    <option>Categories</option>
                     {selectCategory.map(item => {
                         return <option>{item.name}</option>
                     })}
                 </select>
-
+                {/* <Link to ="/post-created"> */}
                 <button className="submitpost" type="submit">SUBMIT POST</button>
+                {/* </Link> */}
            </form>
         </div>
     )

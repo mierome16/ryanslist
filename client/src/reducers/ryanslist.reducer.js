@@ -8,7 +8,8 @@ const initialState = {
   forsale: [],
   personals: [],
   gigs: [],
-  postings: []
+  postings: [],
+  post: []
 }
 
 export default function(state = initialState, action) {
@@ -19,8 +20,11 @@ export default function(state = initialState, action) {
       return {...state, community: action.community, housing: action.housing, jobs: action.jobs, services: action.services, forsale: action.forsale, personals: action.personals, gigs: action.gigs}
     case 'GET_ALL_CATEGORIES':
       return {...state, allCategories: action.payload}
-      case 'POSTINGS':
-          return {...state, postings: action.payload}    
+    case 'POSTINGS':
+      return {...state, postings: action.payload}   
+    case 'POST':
+      return {...state, post: action.payload}
+       
     default:
       return state
   }

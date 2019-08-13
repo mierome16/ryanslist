@@ -9,6 +9,7 @@ import HomePage from './HomePage';
 import Listview from './Listview';
 import SingleView from './SingleView';
 import CreatePosting from './CreatePosting';
+import PostCreated from './PostCreated'
 
 
 
@@ -21,6 +22,7 @@ export default props => {
           <Route path = "/list/:category" component={Listview}></Route>
           <Route path = "/view-post/:id" component={SingleView}></Route>
           <Route path = "/create-a-posting/" component={CreatePosting}></Route>
+          <Route path = "/post-created" component={PostCreated}></Route>
         </Router>
       </div>
     </Provider>

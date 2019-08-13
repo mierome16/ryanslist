@@ -1,0 +1,18 @@
+.svheader {
+    height: 50px;
+    background: rgb(234,234,234);
+    width: 100%;
+    margin-bottom: 50px;
+}
+#post {
+    margin-left: 40px;
+}
+.postcontent {
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+}
+
+.postid, .posttime {
+    font-size: 13px;
+}
